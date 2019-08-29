@@ -1,3 +1,6 @@
+ion-content{
+  --ion-background-color:#f5f5f5;
+}
 ion-slides {
   --bullet-background	:#ffff;
   --bullet-background-active :rgba(255, 255, 255, 0.801);
@@ -5,6 +8,7 @@ ion-slides {
 .swiper-container {
   border-radius: 8px;
   width: 98%;
+  top : 12px;
   margin: 6px auto;
   position: relative;
   overflow: hidden;
@@ -14,4 +18,33 @@ ion-slides {
 }
 .swiper-slide {
   background: #ed1c24c9;
+}
+.ic-main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ion-grid {
+  margin-top: 20px;
+}
+ion-col {
+  margin-left : 8px;
+  margin-right : 8px;
+  padding: 16px;
+  border-radius: 6px;
+  background-color: #ffff;
+  -webkit-box-shadow: 0px 0px 23px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 23px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 23px -10px rgba(0,0,0,0.75);
+}
+ion-item {
+  margin-top: 16px;
+  margin-bottom: -14px;
+}
+ion-label {
+  font-weight: 600;
+}
+.ion-text-center {
+  margin-top: -8px;
+  margin-bottom: -16px;
 }
