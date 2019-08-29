@@ -1,5 +1,7 @@
 {
-  "name": "Sanjayaland:beta",
-  "integrations": {},
+  "name": "SanjayaLandBeta",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

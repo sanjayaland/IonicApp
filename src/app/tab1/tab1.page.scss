@@ -1,4 +1,17 @@
-.welcome-card img {
-  max-height: 35vh;
+ion-slides {
+  --bullet-background	:#ffff;
+  --bullet-background-active :rgba(255, 255, 255, 0.801);
+}
+.swiper-container {
+  border-radius: 8px;
+  width: 98%;
+  margin: 6px auto;
+  position: relative;
   overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.swiper-slide {
+  background: #ed1c24c9;
 }
